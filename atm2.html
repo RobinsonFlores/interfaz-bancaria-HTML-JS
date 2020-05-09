@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Cajero Automatico</title>
+  </head>
+  <body>
+    <p>
+      <img 	align="center" hspace="500" src="cajero.gif" />
+    </p>
+    <p align="center" id="dineroCajero"></p>
+    <p align="center">
+      <input type="number" id="dinero" />
+      <input type="button" value="Retirar" id ="extraer"/>
+      <input type="button" value="Nuevo Retiro" onclick="location.reload()">
+    </p>
+    <p  id="resultado"></p>
+    <canvas id="cuadrito" width="1500" height="1500"></canvas>
+
+    <script src="cajero2.js">
+    </script>
+  </body>
+</html>
