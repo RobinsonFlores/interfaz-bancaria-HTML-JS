@@ -6,7 +6,7 @@ class Billete {
     //this.imagen.width = 400;
     this.valor = valor;
     this.cantidad = cant;
-    this.imagen.src = this.valor.toString()+".jpg";
+    this.imagen.src ="recursos/"+this.valor.toString()+".jpg";
   }
   mostrarBilletes(x, y){
     cuadro.drawImage(this.imagen, x, y, 500, 300);
